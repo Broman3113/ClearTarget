@@ -1,0 +1,18 @@
+.panel {
+  position: absolute;
+  width: 58%;
+  height: 100%;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .3);
+  background-color: rgba(255, 255, 255, .05);
+
+  backdrop-filter: blur(7px);
+  z-index: -1;
+}
+
+.glass{
+  -webkit-box-shadow: 0 0 24px 5px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 0 0 24px 5px rgba(0, 0, 0, 0.47);
+  box-shadow: 0 0 24px 5px rgba(0, 0, 0, 0.47);
+  background-color: rgba(255, 255, 255, .05);
+  backdrop-filter: blur(7px);
+}

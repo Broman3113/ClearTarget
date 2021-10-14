@@ -1,0 +1,55 @@
+$gradient-orange: linear-gradient(315deg, rgba(254, 146, 1, 1) 0%, rgba(253, 1, 68, 1) 50%, rgba(254, 146, 1, 1) 100%);
+$gradient-blue: linear-gradient(315deg, #081d3f 0%, #1765c8 50%, #081d3f 100%);
+$gradient-purple: linear-gradient(315deg, #221842 0%, #a341d4 50%, #221842 100%);
+$gradient-cyan: linear-gradient(315deg, #0b3244 0%, #1accd0 50%, #0b3244 100%);
+$gradient-pink: linear-gradient(315deg, #2f1a34 0%, #d33d7f 50%, #2f1a34 100%);
+$gradient-dark-blue: linear-gradient(315deg, #131c3c 0%, #4966cd 50%, #131c3c 100%);
+
+.gradient--orange {
+  background-image: $gradient-orange;
+  background-size: 400% auto;
+  transition: 0.5s;
+  &:hover{
+    background-position: right center;
+  }
+}
+.gradient--blue {
+  background-image: $gradient-blue;
+  background-size: 400% auto;
+  transition: 0.5s;
+  &:hover{
+    background-position: right center;
+  }
+}
+.gradient--purple {
+  background-image: $gradient-purple;
+  background-size: 400% auto;
+  transition: 0.5s;
+  &:hover{
+    background-position: right center;
+  }
+}
+.gradient--cyan {
+  background-image: $gradient-cyan;
+  background-size: 400% auto;
+  transition: 0.5s;
+  &:hover{
+    background-position: right center;
+  }
+}
+.gradient--pink {
+  background-image: $gradient-pink;
+  background-size: 400% auto;
+  transition: 0.5s;
+  &:hover{
+    background-position: right center;
+  }
+}
+.gradient--dark-blue {
+  background-image: $gradient-dark-blue;
+  background-size: 400% auto;
+  transition: 0.5s;
+  &:hover{
+    background-position: right center;
+  }
+}
