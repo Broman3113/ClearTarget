@@ -3,7 +3,6 @@ const carousel = (slides, prevTrigger, nextTrigger, panelTrigger, overBg, sheetT
     const items = document.querySelectorAll(slides),
         prev = document.querySelector(prevTrigger),
         next = document.querySelector(nextTrigger),
-        panel = document.querySelector(panelTrigger),
         over = document.querySelectorAll(overBg),
         sheet = document.querySelectorAll(sheetTrigger),
         reviews = document.querySelectorAll(reviewsTrigger),
@@ -88,8 +87,8 @@ const carousel = (slides, prevTrigger, nextTrigger, panelTrigger, overBg, sheetT
     next.style.background = `no-repeat center/25px url("../dist/assets/next.svg"), ${gradientStyles[1]}`;
     setSlide(slidePosition);
 
-    document.querySelector(".carousel").addEventListener('touchstart', handleTouchStart, false);
-    document.querySelector(".carousel").addEventListener('touchmove', handleTouchMove, false);
+    document.querySelector(".carousel").addEventListener('touchstart', handleTouchStart, {passive: true});
+    document.querySelector(".carousel").addEventListener('touchmove', handleTouchMove, {passive: true});
 
     let xDown = null;
     let yDown = null;
