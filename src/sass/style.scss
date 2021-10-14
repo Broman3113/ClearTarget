@@ -118,7 +118,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: no-repeat center fixed url("../assets/bg.jpg");
+    background: no-repeat center fixed url("../assets/bg.avif");
     filter: brightness(0.3);
     z-index: -5;
   }
@@ -150,8 +150,6 @@ body {
   align-content: center;
   position: relative;
   min-height: 200px;
-  //background: left repeat-x url("../assets/wall.jpg");
-  //background-size: 150px;
 
   &::before {
     content: '';
@@ -160,7 +158,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: top no-repeat url("../assets/intermediate-bg.jpg");
+    background: top no-repeat url("../assets/intermediate-bg.avif");
     -webkit-box-shadow: 0 0 58px 12px rgba(157, 17, 55, 0.65) inset;
     -moz-box-shadow: 0 0 58px 12px rgba(157, 17, 55, 0.65) inset;
     box-shadow: 0 0 58px 12px rgba(157, 17, 55, 0.65) inset;
@@ -251,8 +249,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: no-repeat center fixed url("../assets/bg.jpg");
-    filter: grayscale(80%);
+    background: no-repeat center fixed url("../assets/bg.avif");
     filter: brightness(0.3);
     z-index: -5;
     -webkit-box-shadow: 0 25px 39px -11px rgba(64, 12, 26, 0.73) inset;
@@ -353,7 +350,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: no-repeat center fixed url("../assets/bg.jpg");
+    background: no-repeat center fixed url("../assets/bg.avif");
     filter: brightness(0.3);
     z-index: -5;
     -webkit-box-shadow: 0 25px 39px -11px rgba(64, 12, 26, 0.73) inset;
