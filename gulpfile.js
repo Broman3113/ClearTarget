@@ -19,7 +19,7 @@ gulp.task("copy-html", () => {
 gulp.task("build-sass", () => {
     return gulp.src("./src/sass/style.scss")
                 .pipe(sass().on('error', sass.logError))
-                .pipe(gulp.dest(dist))
+                .pipe(gulp.dest(dist + '/css'))
                 .pipe(browsersync.stream());
 });
 

@@ -49,7 +49,7 @@ const carousel = (slides, prevTrigger, nextTrigger, panelTrigger, overBg, sheetT
 
     const setBg = (n) => {
         over[n].classList.add(gradientClasses[n]);
-        next.style.background = `no-repeat center/25px url("../dist/assets/next.svg"), ${gradientStyles[(n + 1 < items.length) ? n + 1 : 0]}`;
+        next.style.background = `no-repeat center/25px url("../assets/next.svg"), ${gradientStyles[(n + 1 < items.length) ? n + 1 : 0]}`;
     }
     const setSlide = (n) => {
         items.forEach(item => {
@@ -84,7 +84,7 @@ const carousel = (slides, prevTrigger, nextTrigger, panelTrigger, overBg, sheetT
     })
 
     over[0].classList.add(gradientClasses[0]);
-    next.style.background = `no-repeat center/25px url("../dist/assets/next.svg"), ${gradientStyles[1]}`;
+    next.style.background = `no-repeat center/25px url("../assets/next.svg"), ${gradientStyles[1]}`;
     setSlide(slidePosition);
 
     document.querySelector(".carousel").addEventListener('touchstart', handleTouchStart, {passive: true});

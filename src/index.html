@@ -1,11 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+   
     <title>Clear Target</title>
 </head>
 <body>
@@ -17,7 +18,10 @@
         <div class="container">
             <nav class="header-nav">
                 <a href="#" class="logo wow fadeInLeftBig">
-                    <img src="assets/target3.svg" alt="logo">
+                    <picture>
+                        <source media="(max-width: 425px)" srcset="assets/target-mobile.svg">
+                        <img src="assets/target.svg" alt="logo">
+                    </picture>
                 </a>
                 <ul class="header-nav-list wow fadeInRightBig">
                     <li><a class="active" href="#target">Главная</a></li>
@@ -37,20 +41,23 @@
     </section>
 
     <section class="intermediate">
-        <h2 class="intermediate-header wow flipInX">Нововведения в соц.сетях <span class="gold">фейсбук</span> / <span
+        <h2 class="intermediate-header">Нововведения в соц.сетях <span class="gold">фейсбук</span> / <span
                 class="gold">Инстаграм</span><br> и последние новости из сферы таргета</h2>
-        <a class="btn btn-hollow wow fadeIn" data-wow-duration="2s" href="https://t.me/target_xolod" target="_blank">Подробнее</a>
+        <a class="btn btn-hollow" href="https://t.me/target_xolod" target="_blank">Подробнее</a>
     </section>
 
     <section class="about" id="about">
         <div class="container">
-            <h2 class="about-header header--fade wow flipInX">О себе</h2>
-            <p class="about-description wow flipInX">Немного пройденного <span class="gold">пути</span> в сфере таргета
+            <h2 class="about-header header--fade">О себе</h2>
+            <p class="about-description">Немного пройденного <span class="gold">пути</span> в сфере таргета
             </p>
             <div class="about-facts">
-                <div class="about-facts-fact wow fadeInLeft">
+                <div class="about-facts-fact">
                     <div class="about-facts-fact-image">
-                        <img src="assets/sticker1.avif" alt="sticker">
+                        <picture>
+                            <source srcset="assets/sticker1.avif" type="image/avif">
+                            <img src="assets/sticker1.png" alt="sticker">
+                        </picture>
                     </div>
                     <div class="about-facts-fact-description">
                         <h4>Обучение</h4>
@@ -60,9 +67,12 @@
                                style="text-decoration: underline" target="_blank">atom.univesity</a></p>
                     </div>
                 </div>
-                <div class="about-facts-fact wow fadeInRight">
+                <div class="about-facts-fact">
                     <div class="about-facts-fact-image">
-                        <img src="assets/sticker2.avif" alt="sticker">
+                        <picture>
+                            <source srcset="assets/sticker2.avif" type="image/avif">
+                            <img src="assets/sticker2.png" alt="sticker">
+                        </picture>
                     </div>
                     <div class="about-facts-fact-description">
                         <h4>Истоки практики</h4>
@@ -76,9 +86,12 @@
                             моих стараний.</p>
                     </div>
                 </div>
-                <div class="about-facts-fact wow fadeInLeft">
+                <div class="about-facts-fact">
                     <div class="about-facts-fact-image">
-                        <img src="assets/sticker3.avif" alt="sticker">
+                        <picture>
+                            <source srcset="assets/sticker3.avif" type="image/avif">
+                            <img src="assets/sticker3.png" alt="sticker">
+                        </picture>
                     </div>
                     <div class="about-facts-fact-description">
                         <h4>Реализация проекта</h4>
@@ -89,64 +102,67 @@
                     </div>
                 </div>
             </div>
-            <p class="about-description wow fadeIn" style="padding-bottom: 60px">Интересно узнать с чего <span
+            <p class="about-description" style="padding-bottom: 60px">Интересно узнать с чего <span
                     class="gold">начинается</span> настройка рекламных компаний? Смотри ниже👇</p>
         </div>
     </section>
 
     <section class="intermediate">
 
-        <h2 class="intermediate-header wow flipInX">Бедный, неудачный, несчастливый и нездоровый это <span
+        <h2 class="intermediate-header">Бедный, неудачный, несчастливый и нездоровый это <span
                 class="gold">тот</span>,<br> кто часто использует слово <span class="gold">«завтра»</span></h2>
     </section>
 
     <section class="about" id="preparing">
         <div class="container">
-            <h2 class="about-header header--fade wow flipInX">Подготовка</h2>
-            <p class="about-description wow flipInX">Начальные этапы формирования <br><span
+            <h2 class="about-header header--fade">Подготовка</h2>
+            <p class="about-description">Начальные этапы формирования <br><span
                     class="gold">рекламных</span> компаний</p>
             <div class="cards">
-                <div class="card wow fadeInLeft">
+                <div class="card">
                     <img src="assets/gradient.svg" alt="">
                     <h3>Анализ бизнеса</h3>
                     <p class="card-description">Подробный разбор<br>вашего бизнеса, его дизнайна и спроса</p>
                     <a href="https://t.me/vallhall" target="_blank" class="card-link hover-underline-animation">Узнать больше</a></div>
-                <div class="card active wow fadeIn">
+                <div class="card active">
                     <img src="assets/gradient.svg" alt="">
                     <h3>Написание текста</h3>
                     <p class="card-description">Составление продающихся текстов для рекламных компаний</p>
                     <a href="https://t.me/vallhall" target="_blank" class="card-link hover-underline-animation">Узнать больше</a></div>
-                <div class="card wow fadeInRight">
+                <div class="card">
                     <img src="assets/gradient.svg" alt="">
                     <h3>Создание дизайна</h3>
                     <p class="card-description">Создание дизайна страницы для максимальной конверсии</p>
                     <a href="https://t.me/vallhall" target="_blank" class="card-link hover-underline-animation">Узнать больше</a></div>
             </div>
-            <p class="about-description wow fadeIn">Желаете получить <span class="gold">полный разбор</span> вашего
+            <p class="about-description">Желаете получить <span class="gold">полный разбор</span> вашего
                 бизнеса и получить <span class="gold">консультацию</span> по его подготовке к рекламе?</p>
             <div class="about-btn-wrapper">
-                <p class="wow fadeInRight">Обратиться за данным предложением можно по кнопке ниже</p>
-                <a class="btn btn-filled about-btn wow fadeInLeft" href="https://t.me/vallhall" target="_blank">Жми!</a>
+                <p>Обратиться за данным предложением можно по кнопке ниже</p>
+                <a class="btn btn-filled about-btn" href="https://t.me/vallhall" target="_blank">Жми!</a>
             </div>
         </div>
     </section>
 
 
     <section class="intermediate">
-        <h2 class="intermediate-header wow flipInX">Если Вы желаете получить <span class="gold">полный</span> разбор
+        <h2 class="intermediate-header">Если Вы желаете получить <span class="gold">полный</span> разбор
             вашего бизнеса <br>и <span class="gold">получить</span>
             консультацию по его подготовке к <span class="gold">рекламе</span></h2>
-        <a class="btn btn-hollow wow fadeIn" data-wow-duration="2s" href="https://t.me/vallhall" target="_blank">Узнать больше</a>
+        <a class="btn btn-hollow" href="https://t.me/vallhall" target="_blank">Узнать больше</a>
     </section>
 
     <section class="reviews" id="reviews">
-        <h2 class="reviews-header header header--fade wow fadeInDown">Отзывы</h2>
-        <h3 class="reviews-description header wow fadeIn">Укомплектованные кейсы <br> на <span
+        <h2 class="reviews-header header header--fade">Отзывы</h2>
+        <h3 class="reviews-description header">Укомплектованные кейсы <br> на <span
                 class="gold">зарубежных</span> рынках и рынках <span class="gold">СНГ</span>.</h3>
-        <div class="carousel wow flipInX" data-tilt data-tilt-reverse="true" data-tilt-max="8">
+        <div class="carousel" data-tilt data-tilt-reverse="true" data-tilt-max="8">
             <div class="carousel-item carousel-item-active">
                 <div class="carousel-item-over">
-                    <img src="assets/avatar1.avif" alt="avatar">
+                    <picture>
+                        <source srcset="assets/avatar1.avif" type="image/avif">
+                        <img src="assets/avatar1.jpg" alt="avatar">
+                    </picture>
                     <h4 class="carousel-item-over-name">Naturstein Valentin</h4>
                 </div>
                 <div class="carousel-item-reviews">
@@ -167,7 +183,10 @@
             </div>
             <div class="carousel-item">
                 <div class="carousel-item-over">
-                    <img src="assets/avatar2.avif" alt="avatar">
+                    <picture>
+                        <source srcset="assets/avatar2.avif" type="image/avif">
+                        <img src="assets/avatar2.jpg" alt="avatar">
+                    </picture>
                     <h4 class="carousel-item-over-name">Анатолий Гребенюк</h4>
                 </div>
                 <div class="carousel-item-reviews">
@@ -190,7 +209,10 @@
             </div>
             <div class="carousel-item">
                 <div class="carousel-item-over">
-                    <img src="assets/avatar3.avif" alt="avatar">
+                    <picture>
+                        <source srcset="assets/avatar3.avif" type="image/avif">
+                        <img src="assets/avatar3.jpg" alt="avatar">
+                    </picture>
                     <h4 class="carousel-item-over-name">Геннадий Иванович</h4>
                 </div>
                 <div class="carousel-item-reviews">
@@ -205,7 +227,10 @@
             </div>
             <div class="carousel-item">
                 <div class="carousel-item-over">
-                    <img src="assets/avatar4.avif" alt="avatar">
+                    <picture>
+                        <source srcset="assets/avatar4.avif" type="image/avif">
+                        <img src="assets/avatar4.jpg" alt="avatar">
+                    </picture>
                     <h4 class="carousel-item-over-name">София Владимировна</h4>
                 </div>
                 <div class="carousel-item-reviews">
@@ -224,7 +249,10 @@
             </div>
             <div class="carousel-item">
                 <div class="carousel-item-over">
-                    <img src="assets/avatar5.avif" alt="avatar">
+                    <picture>
+                        <source srcset="assets/avatar5.avif" type="image/avif">
+                        <img src="assets/avatar5.jpg" alt="avatar">
+                    </picture>
                     <h4 class="carousel-item-over-name">ZYCSEL Store</h4>
                 </div>
                 <div class="carousel-item-reviews">
@@ -241,7 +269,10 @@
             </div>
             <div class="carousel-item">
                 <div class="carousel-item-over">
-                    <img src="assets/avatar6.avif" alt="avatar">
+                    <picture>
+                        <source srcset="assets/avatar6.avif" type="image/avif">
+                        <img src="assets/avatar6.jpg" alt="avatar">
+                    </picture>
                     <h4 class="carousel-item-over-name">Александр Петров</h4>
                 </div>
                 <div class="carousel-item-reviews">
@@ -262,40 +293,58 @@
                 </button>
             </div>
         </div>
-        <div class="carousel-item-reviews-sheet wow fadeInUp" data-tilt data-tilt-max="8">
+        <div class="carousel-item-reviews-sheet" data-tilt data-tilt-max="8">
             <div class="img-wrapper sheet-active">
                 <div class="img-border gradient--orange">
-                    <img src="assets/avatar1.avif" alt="avatar">
+                    <picture>
+                        <source srcset="assets/avatar1.avif" type="image/avif">
+                        <img src="assets/avatar1.jpg" alt="avatar">
+                    </picture>
                 </div>
                 <h5>Naturstein Valentin</h5>
             </div>
             <div class="img-wrapper">
                 <div class="img-border gradient--blue">
-                    <img src="assets/avatar2.avif" alt="avatar">
+                    <picture>
+                        <source srcset="assets/avatar2.avif" type="image/avif">
+                        <img src="assets/avatar2.jpg" alt="avatar">
+                    </picture>
                 </div>
                 <h5>Анатолий Гребенюк</h5>
             </div>
             <div class="img-wrapper">
                 <div class="img-border gradient--purple">
-                    <img src="assets/avatar3.avif" alt="avatar">
+                    <picture>
+                        <source srcset="assets/avatar3.avif" type="image/avif">
+                        <img src="assets/avatar3.jpg" alt="avatar">
+                    </picture>
                 </div>
                 <h5>Геннадий Иванович</h5>
             </div>
             <div class="img-wrapper">
                 <div class="img-border gradient--cyan">
-                    <img src="assets/avatar4.avif" alt="avatar">
+                    <picture>
+                        <source srcset="assets/avatar4.avif" type="image/avif">
+                        <img src="assets/avatar4.jpg" alt="avatar">
+                    </picture>
                 </div>
                 <h5>София Владимировна</h5>
             </div>
             <div class="img-wrapper">
                 <div class="img-border gradient--pink">
-                    <img src="assets/avatar5.avif" alt="avatar">
+                    <picture>
+                        <source srcset="assets/avatar5.avif" type="image/avif">
+                        <img src="assets/avatar5.jpg" alt="avatar">
+                    </picture>
                 </div>
                 <h5>ZYCSEL Store</h5>
             </div>
             <div class="img-wrapper">
                 <div class="img-border gradient--dark-blue">
-                    <img src="assets/avatar6.avif" alt="avatar">
+                    <picture>
+                        <source srcset="assets/avatar6.avif" type="image/avif">
+                        <img src="assets/avatar6.jpg" alt="avatar">
+                    </picture>
                 </div>
                 <h5>Богдан Виолов</h5>
             </div>
@@ -305,12 +354,12 @@
 <footer>
     <section class="footer intermediate">
         <div class="footer-top">
-            <a href="#" class="footer-logo wow fadeIn">
-                <img src="assets/target3.svg" alt="logo">
+            <a href="#" class="footer-logo">
+                <img src="assets/target.svg" alt="logo">
             </a>
         </div>
         <div class="footer-bottom">
-            <div class="footer-bottom-socials wow fadeIn">
+            <div class="footer-bottom-socials">
                 <p class="footer-bottom-socials-desc">Соцсети</p>
                 <a class="footer-bottom-socials-link" href="https://www.instagram.com/x.xolod.x" target="_blank">
                     <img src="assets/instagram.svg" alt="socials">
@@ -319,14 +368,14 @@
                     <img src="assets/telegram.svg" alt="socials">
                 </a>
             </div>
-            <div class="footer-bottom-page wow fadeIn">
+            <div class="footer-bottom-page">
                 <p class="footer-bottom-socials-desc">Страница</p>
                 <p><a class="hover-underline-animation" href="#">Главная</a></p>
                 <p><a class="hover-underline-animation" href="#about">О себе</a></p>
                 <p><a class="hover-underline-animation" href="#preparing">Подготовка</a></p>
                 <p><a class="hover-underline-animation" href="#reviews">Отзывы</a></p>
             </div>
-            <div class="footer-bottom-networks wow fadeIn">
+            <div class="footer-bottom-networks">
                 <p class="footer-bottom-socials-desc">Ссылки</p>
                 <p><a class="hover-underline-animation" href="https://www.instagram.com/x.xolod.x" target="_blank">Instagram</a></p>
                 <p><a class="hover-underline-animation" href="https://t.me/target_xolod" target="_blank">Telegram</a></p>
